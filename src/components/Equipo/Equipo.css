@@ -1,0 +1,28 @@
+.equipo {
+    widht: 100%;
+    padding: 32px;
+    box-sizing: border-box; /*para que el 100% sea el de la pantalla y no toque estar moviendo la barra hacia la derecha o izquierda*/
+    text-align: center;
+    font-size: 32px;
+    position: relative;
+}
+
+.input-color {
+    position: absolute;
+    top: 20px;
+    right: 50px;
+}
+
+.equipo h3 {
+    font-weight: 400;
+    color: #212121;
+    border-bottom: 4px solid; /*para poner el subrayado*/
+    display: inline-block; /*para que solo ocupe en espacio su texto*/
+    padding-bottom: 8px; /*para que el subrayado no quede pegado al nombre*/
+}
+
+.colaboradores {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap; /*rompe la línea, si no cabe pasa a la siguiente*/
+}
